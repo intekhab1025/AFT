@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AFT_1686600546961-push-trigger-input-set
+  identifier: Build_AFT_1686600546961pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TF
+  pipeline:
+    identifier: Build_AFT_1686600546961
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
