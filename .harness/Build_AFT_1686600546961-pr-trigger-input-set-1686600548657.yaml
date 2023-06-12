@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AFT_1686600546961-pr-trigger-input-set
+  identifier: Build_AFT_1686600546961prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: TF
+  pipeline:
+    identifier: Build_AFT_1686600546961
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
